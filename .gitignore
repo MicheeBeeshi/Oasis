@@ -1,0 +1,11 @@
+target/
+bin/
+.settings/
+.classpath
+.project
+
+*.class
+*.log
+
+.env
+application-local.properties
