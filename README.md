@@ -1,5 +1,9 @@
 # Oasis — California Food Access
 
+## Live Application
+[Open the Oasis California Food Access Map](https://oasis-dyxy.onrender.com/)
+The application may take a short time to start after a period of inactivity because it is hosted on Render.
+
 Oasis is an interactive web map for exploring food access across California census tracts. It combines tract-level population and income information, official USDA food-access indicators, grocery-store and farmers-market locations, and a project-specific nearby-store classification.
 
 The application is intended as an informational reference for people comparing places to live and for anyone interested in the relationship between food access and neighborhood-level economic conditions. It does not decide whether a place is suitable for a particular person, and it should not be treated as an official eligibility, planning, or real-estate tool.
