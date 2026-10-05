@@ -169,7 +169,7 @@ The current `pom.xml` compiles the project with Java release 25. This export was
 Open PowerShell in the directory containing `pom.xml`, or change to it explicitly:
 
 ```powershell
-cd "C:\Users\FOSUM\OneDrive\Desktop\Projects\california-food-access-java"
+cd "C:\Users\USERNAME\Directory\Path\...Oasis"
 ```
 
 Run the automated tests:
@@ -300,7 +300,7 @@ california-food-access/
 - Tract-level values do not describe every household or block within a tract.
 - Oasis tract counts are precomputed and are not regenerated when the application starts.
 - The home calculation uses straight-line distance, not road distance, travel time, public transit, terrain, or physical barriers.
-- The tract-level Oasis count uses a tract center, so residents near a tract edge may have different access than the tract-wide display suggests.
+- The tract-level Oasis count uses a tract center, so residents near a tract edge may have different access than the tract-wide display.
 - A store marker does not establish food quality, price, cultural suitability, accessibility, hours, or current operation.
 - Farmers markets may be seasonal or operate only on particular days.
 - Address geocoding depends on an external service and may return an approximate or incorrect point.
@@ -312,17 +312,13 @@ california-food-access/
 
 Home-address searches are performed in the browser through OpenStreetMap Nominatim. The address is therefore transmitted to that external service. Oasis does not provide its own database or server endpoint for saving searched addresses, but users should still avoid entering sensitive addresses if they do not want them sent to the geocoding provider.
 
-## Recommended next steps
+## Coming Updates
 
-- Document exact dataset versions, URLs, download dates, licenses, and transformation scripts.
-- Add a repeatable preprocessing program that assigns stores to tract-center radii and rebuilds `neighborhoods.csv`.
-- Validate and deduplicate store records and account for seasonal farmers markets.
-- Add API, CSV-validation, spatial, and browser-level automated tests.
 - Add filters and marker clustering for performance and readability.
-- Add accessible non-map results for users who cannot use the interactive map.
-- Move external frontend dependencies into a production asset pipeline or document required third-party availability.
-- Package and deploy the Spring Boot application on a host with a compatible Java runtime.
-- Generalize state-specific filenames and preprocessing before expanding nationwide.
+- Add accessible non-map results for users who cannot use the interactive map..
+- Add a repeatable preprocessing program that assigns stores to tract-center radii and rebuilds `neighborhoods.csv`.
+- Generalize state-specific filenames and preprocessing for nationwide expansion.
+- Mental Health Resource Accessibility offshoot
 
 ## Disclaimer
 
