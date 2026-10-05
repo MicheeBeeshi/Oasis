@@ -323,7 +323,3 @@ Home-address searches are performed in the browser through OpenStreetMap Nominat
 ## Disclaimer
 
 Oasis is an educational project and an exploratory reference. Its classifications depend on the included data, preprocessing assumptions, distance method, and user-selected threshold. Verify important decisions with current official datasets, direct store information, local knowledge, and on-the-ground research.
-
-## License
-
-No software license is included in this export. Add a license before distributing or accepting outside contributions, and separately follow the attribution and licensing requirements of each source dataset and map service.
